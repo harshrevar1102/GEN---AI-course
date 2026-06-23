@@ -1,7 +1,7 @@
 
-# Generatve AI Q&A: Question and Answer System Based on Google Palm LLM and Langchain for E-learning company  
+# Generative AI Q&A: Question and Answer System Based on Google PaLM LLM and LangChain for E-learning Company  
 
-This is an end to end LLM project based on Google Palm and Langchain. We are building a Q&A system for an e-learning company called Nullclass.Nullclass sells data related courses and virtual internships. They have thousands of learners who uses discord server or email to ask questions. This system will provide a streamlit based user interface for students where they can ask questions and get answers. 
+This is an end to end LLM project based on Google Palm and Langchain. We are building a Q&A system for an e-learning company called Nullclass.Nullclass offers data-related courses and virtual internships. They have thousands of learners who use Discord server or email to ask questions. This system provides a Streamlit based user interface for students where they can ask questions and get answers. 
 
 
 ## Project Highlights
@@ -15,12 +15,12 @@ This is an end to end LLM project based on Google Palm and Langchain. We are bui
 
 ## Installation
 
-1.Clone this repository to your local machine using:
+1. Clone this repository to your local machine using:
 
 ```bash
   git clone https://github.com/aslin72/customer_service_chatbot_LLM.git
 ```
-2.Navigate to the project directory:
+2. Navigate to the project directory:
 
 ```bash
   cd customer_service_chatbot_LLM
@@ -30,7 +30,7 @@ This is an end to end LLM project based on Google Palm and Langchain. We are bui
 ```bash
   pip install -r requirements.txt
 ```
-4.Acquire an api key through makersuite.google.com and put it in .env file
+4. Acquire an API key through makersuite.google.com and put it in .env file
 
 ```bash
   GOOGLE_API_KEY="your_api_key_here"
@@ -43,20 +43,20 @@ streamlit run main.py
 
 ```
 
-2.The web app will open in your browser.
+2. The web app will open in your browser.
 
-- To create a knowledebase of FAQs, click on Create Knolwedge Base button. It will take some time before knowledgebase is created so please wait.
+- To create a knowledge base of FAQs, click on Create Knowledge Base button. It will take some time before knowledge base is created so please wait.
 
 - Once knowledge base is created you will see a directory called faiss_index in your current folder
 
 - Now you are ready to ask questions. Type your question in Question box and hit Enter
 
 ## Sample Questions
-  - Do you guys provide internship and also do you offer EMI payments?
+  - Do you guys provide internship, and do you also offer EMI payments?
   - Do you have javascript course?
-  - Should I learn power bi or tableau?
-  - I've a MAC computer. Can I use powerbi on it?
-  - I don't see power pivot. how can I enable it?
+  - Should I learn Power BI or Tableau?
+  - I've a Mac computer. Can I use Power BI on it?
+  - I don't see Power Pivot. How can I enable it?
 
 ## Project Structure
 
